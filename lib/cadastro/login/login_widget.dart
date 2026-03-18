@@ -441,7 +441,7 @@ class _LoginWidgetState extends State<LoginWidget> {
                   padding: EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 10.0),
                   child: FFButtonWidget(
                     onPressed: () async {
-                      context.pushNamed(PaginaInicialWidget.routeName);
+                      context.pushNamed(VerifyEmailWidget.routeName);
                     },
                     text: 'ENTRAR',
                     options: FFButtonOptions(

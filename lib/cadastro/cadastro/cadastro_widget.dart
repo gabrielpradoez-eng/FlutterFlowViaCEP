@@ -825,7 +825,7 @@ class _CadastroWidgetState extends State<CadastroWidget> {
                         EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
                     child: FFButtonWidget(
                       onPressed: () async {
-                        context.pushNamed(CepWidget.routeName);
+                        context.pushNamed(LoginWidget.routeName);
                       },
                       text: 'CONFIRMAR',
                       options: FFButtonOptions(

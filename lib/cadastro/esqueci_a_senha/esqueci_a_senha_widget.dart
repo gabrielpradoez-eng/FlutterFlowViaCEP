@@ -260,9 +260,7 @@ class _EsqueciASenhaWidgetState extends State<EsqueciASenhaWidget> {
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 10.0),
                   child: FFButtonWidget(
-                    onPressed: () {
-                      print('Button pressed ...');
-                    },
+                    onPressed: () async {},
                     text: 'ENVIAR LINK',
                     options: FFButtonOptions(
                       width: 350.0,

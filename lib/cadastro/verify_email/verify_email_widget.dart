@@ -97,7 +97,7 @@ class _VerifyEmailWidgetState extends State<VerifyEmailWidget> {
                     child: Align(
                       alignment: AlignmentDirectional(0.0, 0.0),
                       child: Text(
-                        'Informe o código de verificação que foi \nenviado para o seu e-mail informado:',
+                        'Informe o código de verificação que foi \nenviado para o e-mail informado:',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               font: GoogleFonts.inter(
                                 fontWeight: FontWeight.w800,
